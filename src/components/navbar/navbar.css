@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: linear-gradient(300deg, #136, #238);
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 2px 0 #0002;
+
+  & ul {
+    display: flex;
+    gap: 15px;
+
+    & li {
+      list-style: none;
+
+      & a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}

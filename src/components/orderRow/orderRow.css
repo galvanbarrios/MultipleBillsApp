@@ -1,0 +1,21 @@
+.order-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(300deg, #136, #238);
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 #0004;
+  margin: 15px 0;
+}
+
+.order-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+}
+
+.order-btns {
+  flex-direction: row;
+}

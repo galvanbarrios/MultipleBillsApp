@@ -1,0 +1,19 @@
+.home-section {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background: linear-gradient(300deg, #ff9000, #990033);
+  padding: 30px;
+  box-shadow: 0 2px 4px 0 #0004;
+  flex: 1;
+  border-radius: 20px;
+}
+
+.menu-section {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  align-items: center;
+}
