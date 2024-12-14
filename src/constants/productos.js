@@ -3,53 +3,53 @@
 const productos = [
   {
     id: 1,
-    nombre: "Pizza Margherita",
-    precio: 150,
+    name: "Pizza Margherita",
+    price: 150,
   },
   {
     id: 2,
-    nombre: "Hamburguesa Clásica",
-    precio: 100,
+    name: "Hamburguesa Clásica",
+    price: 100,
   },
   {
     id: 3,
-    nombre: "Tacos al Pastor",
-    precio: 75,
+    name: "Tacos al Pastor",
+    price: 75,
   },
   {
     id: 4,
-    nombre: "Ensalada César",
-    precio: 120,
+    name: "Ensalada César",
+    price: 120,
   },
   {
     id: 5,
-    nombre: "Sushi Roll California",
-    precio: 200,
+    name: "Sushi Roll California",
+    price: 200,
   },
   {
     id: 6,
-    nombre: "Lasaña de Carne",
-    precio: 180,
+    name: "Lasaña de Carne",
+    price: 180,
   },
   {
     id: 7,
-    nombre: "Empanadas Argentinas",
-    precio: 90,
+    name: "Empanadas Argentinas",
+    price: 90,
   },
   {
     id: 8,
-    nombre: "Churros con Chocolate",
-    precio: 60,
+    name: "Churros con Chocolate",
+    price: 60,
   },
   {
     id: 9,
-    nombre: "Café Americano",
-    precio: 50,
+    name: "Café Americano",
+    price: 50,
   },
   {
     id: 10,
-    nombre: "Té Verde",
-    precio: 40,
+    name: "Té Verde",
+    price: 40,
   },
 ];
 
