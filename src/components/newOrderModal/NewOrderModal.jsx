@@ -100,10 +100,6 @@ const NewOrderModal = ({ isOpen, closeModal }) => {
   const showInfo = () => {
     if (singleOrderFormRef.current) {
       const obj = singleOrderFormRef.current.obtenerValores();
-      if (!obj) {
-        alert("Algo salió mal al tomar la orden");
-        return;
-      }
       const { id, name, price } = obj.product;
       addSingleOrder(
         obj.customerName,

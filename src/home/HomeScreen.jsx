@@ -31,12 +31,15 @@ const HomeScreen = () => {
           <div className="orders-section">
             <h2 className="title">Pedidos</h2>
             {orders.length <= 0 ? (
-              <h2 className="title">No hay órdenes pendientes</h2>
+              <h3 className="title" style={{ marginTop: 30 }}>
+                No hay órdenes pendientes
+              </h3>
             ) : (
               orders.map((order, index) => (
                 <OrderRow
                   key={index}
                   index={index}
+                  idOrder={order.idOrder}
                   customerName={order.clientName}
                   product={order.items}
                   quantity={order.quantity}

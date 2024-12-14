@@ -57,3 +57,25 @@
     user-select: none;
   }
 }
+
+.payment-details {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #fff;
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #333, #555);
+  border-radius: 20px;
+  box-shadow: 0 4px 4px 0 #0004;
+}
+
+.total-payment {
+  padding: 20px 40px;
+  background: linear-gradient(135deg, #333, #555);
+  border-radius: 20px;
+  box-shadow: 0 4px 4px 0 #0004;
+  color: #fff;
+  margin: 20px 0;
+  text-align: end;
+}
