@@ -44,3 +44,16 @@
   display: flex;
   gap: 10px;
 }
+
+.quantity-section {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  & button {
+    align-self: flex-start;
+    margin-bottom: 10px;
+    user-select: none;
+  }
+}

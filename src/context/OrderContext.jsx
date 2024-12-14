@@ -9,11 +9,21 @@ export const OrderProvider = ({ children }) => {
   const [orders, setOrders] = useState([]); // Array de pedidos
 
   // Agregar pedido para un cliente
-  const addSingleOrder = (clientName, id, productName, price) => {
+  const addSingleOrder = (
+    clientName,
+    id,
+    productName,
+    price,
+    quantity,
+    table
+  ) => {
     const newOrder = {
       clientName,
       items: [{ id, name: productName, price }],
+      quantity,
+      table,
     };
+    console.log(newOrder);
     setOrders((prevOrders) => [...prevOrders, newOrder]);
   };
 
